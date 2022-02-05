@@ -23,8 +23,6 @@ export default function NavBar() {
 
     return (
         <div className={Theme.theme}>
-            <NavItem clickHandler={ToogleTheme} tittle={Theme.tittle} />
-            <NavItem clickHandler={ToogleTheme} tittle={Theme.tittle} />
-            <NavItem clickHandler={ToogleTheme} tittle={Theme.tittle} />
+            <NavItem clickHandler={ToogleTheme} tittle={Theme.tittle} theme={Theme.theme} />
         </div>);
 }
